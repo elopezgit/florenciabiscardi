@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.profile-pic,
+.logo-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  margin-top: -1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.subtitle {
+  margin: 0.5rem 0 1.5rem;
+  font-size: 16px;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.btn.whatsapp { background: #25D366; }
+.btn.instagram { background: #E1306C; }
+.btn.facebook { background: #3B5998; }
+.btn.email { background: #666; }
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.map-section {
+  text-align: left;
+}
+
+.map-section h3 {
+  margin-bottom: 0.3rem;
+  color: #2c3e50;
+}
+
+
+.header-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.profile-container, .logo-container {
+  flex: 1;
+  max-width: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #2c3e50;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  padding: 8px;
+  border: 2px solid #ccc;
+}
+
+
+.logo-banner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo-banner-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px 16px 0 0;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #2c3e50;
+  margin: 0 auto 1rem;
+  display: block;
+}
